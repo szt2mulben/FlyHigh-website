@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlyHigh.hu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <h1>FlyHigh</h1>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Kezdőlap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#popular">A legnépszerűbb repülőjegyek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#news">Hasznos olvasnivalók</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#follow">Kövessen minket!</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+    <div class="search-section">
+        <h2 style="margin: 40px;">Csak pár kattintás a következő utazása!</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="honnan">Honnan?</label>
+                    <input type="text" class="form-control" id="honnan" placeholder="Indulási hely">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="hova">Hova?</label>
+                    <input type="text" class="form-control" id="hova" placeholder="Érkezési hely">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="utazok">Utazók</label>
+                    <input type="number" class="form-control" id="utazok" min="1" placeholder="Szám">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="osztaly">Osztály</label>
+                    <select class="form-control" id="osztaly">
+                        <option selected>Economy</option>
+                        <option>Business</option>
+                        <option>First Class</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Keresés</button>
+        </form>
+    </div>
+<section id="popular">
+    <div class="popular-flights">
+        <h2 style="margin-bottom: 50px;">A legnépszerűbb repülőjegyek</h2>
+        <div class="card-deck">
+            <div class="card">
+                <img src="amsz.jpg" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title">Amszterdam</h5>
+                    <p class="card-text">Ár: 72 000 Ft</p>
+                    <p class="card-text">Hónap: December</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="db.jpg" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title">Dubai</h5>
+                    <p class="card-text">Ár: 89 000 Ft</p>
+                    <p class="card-text">Hónap: Január</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="at.jpg" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title">Athén</h5>
+                    <p class="card-text">Ár: 57 000 Ft</p>
+                    <p class="card-text">Hónap: Február</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="isz.jpg" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title">Isztambul</h5>
+                    <p class="card-text">Ár: 45 000 Ft</p>
+                    <p class="card-text">Hónap: Március</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="news">
+    <div class="news-section">
+        <h2 style="margin-bottom: 50px; text-align:center;">Hasznos olvasnivalók</h2>
+        <div class="card-deck">
+            <div class="card">
+                <div>
+                    <h5 class="card-title" style="margin: 10px;">A Korean Air heti négyre bővíti szöuli járatai számát Budapestről</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">A dél-koreai légitársaság bejelentése szerint bővíti Budapestről Szöulba tartó járatai számát, így a tervek szerint jövő év április elejétől heti négy járat közlekedik majd az útvonalon.</p>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h5 class="card-title" style="margin: 10px;">Két új útvonal is bekerült a Ryanair nyári menetrendjébe</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Márciustól Milánó-Malpense repterére, június elejétől pedig Skiathos szigetére indít közvetlen járatokat a Ryanair.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h5 class="card-title" style="margin: 10px;">Mutatjuk a járatokat a magyar csapat EB meccseire</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Szombaton megtörtént az EB sorsolás, mutatjuk is a járatokat a csoportmérközésekre!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <div class="why-choose-us-section">
+        <h2 style="text-align: center;">Miért válassza a FlyHigh.hu-t?</h2>
+        <div class="why-choose-us-card"><b style="color: white;">16</b> éve vagyunk jelen a hazai piacon</div>
+        <div class="why-choose-us-card"><b style="color: white;">300 000+</b> utast szolgáltunk ki eddig</div>
+        <div class="why-choose-us-card"><b style="color: white;">500+</b> légitársaság ajánlatát kínáljuk egy helyen</div>
+        <div class="why-choose-us-card"><b style="color: white;">4000+</b> úti célra kínálunk repjegyeket világszerte</div>
+        <div class="why-choose-us-card"><b style="color: white;">150</b> hívást válaszolunk meg átlagosan naponta</div>
+        <div class="why-choose-us-card">Napi <b style="color: white;">8</b> órában elérhető magyar nyelvű ügyfélszolgálatunk</div>
+    </div>
+
+    <div class="flex-container">
+        <div class="help-section" style="padding: 50px;">
+            <h3>Segítségre van szüksége?</h3>
+            <p>Telefonszám: +36 123 456 789</p>
+            <p>Ügyfélszolgálat elérhetősége: Hétfő-Péntek 9:00 - 17:00</p><br>
+            <button type="submit" class="btn btn-primary">Kapcsolat</button>
+        </div>
+        <div class="subscribe-section">
+            <h3>Iratkozzon fel hírlevelünkre!</h3>
+            <form>
+                <div class="form-group">
+                    <label for="name">Név:</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email cím:</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="accept" name="accept" required>
+                    <label class="form-check-label" for="accept">Feliratkozom a FlyHigh hírlevelére, az adatkezelési tájékoztatóban leírtakat elfogadom.</label>
+                </div> <br>
+                <button type="submit" class="btn btn-primary">Feliratkozás</button>
+
+            </form>
+        </div>
+    </div>
+    <section id="follow">
+    <div class="follow-us-section">
+        <h3>Kövessen minket!</h3>
+        <div class="follow-us-icons">
+            <p>Ne maradjon le semmiről! Találkozzunk a közösségi oldalakon, 
+                ahol rendszeresen jelentkezünk repülőjegy akciókkal, nyereményjátékokkal és úti cél ajánlókkal!</p>
+            <span class="follow-us-icon"><i class="fab fa-facebook"></i></span>
+            <span class="follow-us-icon"><i class="fab fa-twitter"></i></span>
+            <span class="follow-us-icon"><i class="fab fa-instagram"></i></span>
+        </div>
+    </div>
+</section>
+    <footer>
+        <p>&copy; 2023 FlyHigh I Minden jog fenntartva.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
